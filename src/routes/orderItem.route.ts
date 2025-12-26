@@ -1,5 +1,5 @@
 import { Router } from "express";
-import prismaInstance from "../prisma";
+import prismaInstance from "../database";
 import { OrderItemRepository } from "../repository/orderItem.repository";
 import { OrderItemServices } from "../services/orderItem.services";
 import { OrderItemController } from "../controller/orderItem.controller";

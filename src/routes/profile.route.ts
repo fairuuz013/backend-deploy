@@ -1,5 +1,5 @@
 import { Router } from "express";
-import prismaInstance from "../prisma";
+import prismaInstance from "../database";
 import { authenticate } from "../middleware/auth.middleware";
 import { ProfileRepository } from "../repository/profile.repository";
 import { ProfileServices } from "../services/profile.service";

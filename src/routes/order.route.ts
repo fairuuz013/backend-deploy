@@ -2,7 +2,7 @@ import { Router } from "express"
 import { OrderController } from "../controller/order.controller"
 import { OrderRepository } from "../repository/order.repository"
 import { OrderServices } from "../services/order.services"
-import prismaInstance from "../prisma"
+import prismaInstance from "../database"
 import { authenticate } from "../middleware/auth.middleware"
 import { repo as repoProduct } from "../routes/product.route"
 

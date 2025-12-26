@@ -6,7 +6,7 @@ import { authenticate } from "../middleware/auth.middleware";
 import { upload } from "../middleware/upload.middleware";
 import { ProductRepository } from "../repository/product.repository";
 import { ProductServices } from "../services/product.services";
-import prismaInstance from "../prisma";
+import prismaInstance from "../database";
 
 
 const router = Router()
