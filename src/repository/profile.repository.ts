@@ -2,7 +2,7 @@ import type {
   Prisma,
   PrismaClient,
   Profile,
-} from "../generated/client";
+} from "../generated";
 
 export interface IProfileRepository {
   findByUserId(userId: number): Promise<Profile | null>;

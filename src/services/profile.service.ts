@@ -1,7 +1,7 @@
 import type {
   Prisma,
   Profile,
-} from "../generated/client";
+} from "../generated";
 import type { IProfileRepository } from "../repository/profile.repository";
 
 export interface IProfileService {

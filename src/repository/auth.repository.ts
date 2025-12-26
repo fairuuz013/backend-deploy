@@ -1,4 +1,4 @@
-import { PrismaClient } from "../generated/client";
+import { PrismaClient } from "../generated";
 
 export interface IAuthRepository {
   findByEmail(email: string): Promise<any | null>;

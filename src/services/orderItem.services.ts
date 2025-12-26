@@ -1,7 +1,7 @@
 import type {
   Prisma,
   OrderItems,
-} from "../generated/client";
+} from "../generated";
 import type { IOrderItemRepository } from "../repository/orderItem.repository";
 
 /* =====================
