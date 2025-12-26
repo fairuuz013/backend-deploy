@@ -1,6 +1,6 @@
 node_modules
 # Keep environment variables out of version control
 .env
+.env.development
 dist
-/src/generated/prisma
-[ublic/uploads/*
+public/uploads/*
